@@ -1,0 +1,64 @@
+.btn-card{
+  background-color:#2A3342;
+  color: #F6F5FB;
+  border-radius: 10px ;
+  padding: 0.35rem 1rem;
+  text-decoration: none;
+  font-weight: 700;
+  display: none;
+}
+.card-body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.card:hover .btn-card{
+  display: block;
+}
+
+.dialog{
+  width: 40%;
+  border: 0;
+  border-radius: 1rem;
+  font-family: Montserrat;
+}
+.dialog-close{
+  display: flex;
+  justify-content: end;
+}
+.dialog-close img{
+  width: 1rem;
+  cursor: pointer;
+}
+.dialog-content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin: 5rem 0;
+}
+.dialog-content img{
+  width:6rem;
+  align-self: center;
+}
+.dialog-title{
+  font-size: 2em;
+}
+.dialog-text{
+  font-size: 1.2em;
+  margin-top: 2rem;
+}
+.dialog-button{
+  display: flex;
+  align-self: center;
+  width: 50%;
+  padding: 0.5rem 1rem;
+  text-align: center;
+  margin-top: 2rem;
+  border-radius: 0.75rem;
+  border: 0;
+  background-color: #2A3342;
+  color: #F6F5FB;
+  justify-content: center;
+  font-family: Raleway;
+}
